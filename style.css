@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #cbc9c9;
+}
+#card{
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin: 100px 400px;
+    background: cornflowerblue;
+}
+#card>h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#card>label{
+    font-size: 25px;
+}
+#card>input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+#card>input[type=number]{
+    padding: 12px 20px;
+    font-size: 25px;
+    -moz-appearance: textfield;
+}
+input[type=number]:focus {
+    background-color: cornflowerblue;
+    color: white;
+}
+footer{
+    height: 150px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+footer>p{
+    padding-top: 75px;
+    font-size: 24px;
+}
